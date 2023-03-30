@@ -17,8 +17,7 @@ SQlite3
 Setup
 This project is hosted, and can be accessed through this link:
 
-https://superheroes-89eh.onrender.com/
-or,
+https://superheroe-v2hz.onrender.comor,
 
 You can setup this repository locally by following this manual
 
@@ -64,7 +63,7 @@ A HeroPower belongs to a Hero and belongs to a Power.
 
 Routes GET /heroes
 
-https://superheroes-89eh.onrender.com/heroes
+https://superheroe-v2hz.onrender.com/heroes
 
 Returns a list of all heroes.
 
@@ -88,7 +87,7 @@ json
 ]
 GET /heroes/:id
 
-https://superheroes-89eh.onrender.com/heroes/2
+https://superheroe-v2hz.onrender.comm/heroes/2
 
 {
 "id": 2,
@@ -128,7 +127,7 @@ json
 }
 GET /powers
 
-https://superheroes-89eh.onrender.com/powers
+https://superheroe-v2hz.onrender.com/powers
 
 Returns a list of all powers.
 
@@ -151,7 +150,7 @@ json
 ]
 GET /powers/:id
 
-https://superheroes-89eh.onrender.com/powers/4
+https://superheroe-v2hz.onrender.com/powers/4
 
 Returns a specific power by id.
 
@@ -176,7 +175,7 @@ PATCH /powers/:id
 
 use postman or Thunder client to test it out
 
-https://superheroes-89eh.onrender.com/powers/4
+https://superheroe-v2hz.onrender.com/powers/4
 
 Updates a specific power by id.
 
