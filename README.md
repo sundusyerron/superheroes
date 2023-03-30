@@ -1,4 +1,4 @@
-SuperHeroes
+## SuperHeroes
 SuperHeroes is a basic API built with ruby on rails.
 
 This is a sample API for managing heroes and their powers.
@@ -32,10 +32,21 @@ If you are using VisualBasics
   code .
 Ensure the ruby gems are setup in your machine
 
- bundle install
-Run the application
+ ## Run the application
 
-  rails s
+Then, install the required dependencies using Bundler:
+
+    bundle install
+run the migrations:
+
+    rails db:migrate 
+seed data
+
+  rails db:seed    
+Usage
+Start the server with:
+
+    rails server
 Open the application from your browser
 
 https://localhost:3000
